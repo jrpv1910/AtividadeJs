@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//BR" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ 
+<!-- Programa do Arquivo 01_Helloword -->
+     <html xmln="http://www.w3.org/1999/xhtml">
+<head>
+     <title>Soma inteiros em JavaScript</title>
+     <script type = "text/javascript">
+        var stringNumeros1; //primeira string entrada pelo usuario
+        var stringNumero2;  //seguinda string entrada pelo usuario
+        var Numero1;       // primeiro numero a somar
+        var numero2;      //segundo numero a somar
+        var soma;        //soma de numero1 e numero2
+
+        //le o primeiro numero do usuario como uma String
+        stringNumero1 = prompt("Entre com o primeiro numero:  ");
+
+        //lê o segundo numero do usuario como uma String
+        stringNumero2 = prompt("Entre com o segundo numero:  ");
+
+        //Converte numeros de String para inteiros
+       numero1 = parseInt(stringNumero1);
+       numero2 = parseInt(stringNumero2);
+
+       //Soma de numeros1 e numeros2
+       soma = numero1 + numero2
+
+       //exibe o resultado
+       document.writeln("<h1> A soma é " + soma + "</h1>");
+
+       </script>
+    </head>
+     <body>
+        <p>Click Refresh (ou reload) para executar este script agora</p>
+    </body>
+    
+         </html>
